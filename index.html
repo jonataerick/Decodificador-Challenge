@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto - Alura</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/logoalura.png" alt="Logo Alura" class="logoAlura">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="textarea"  cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+    
+            <div>
+                <h6 class="informacao"> <img src="atencao.png" alt="Ponto de exclamação para chamar a atenção"> Use apenas letras minúsculas e não use acentos.</h6>
+            </div>
+            <div class="botoes">
+                <button class="crip-btn" onclick="btnCriptografar()">Criptografar</button>
+                <button class="descrip-btn" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensagem"  cols="20" rows="15" ></textarea>
+            <button class="cop-btn" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&#x00A9;Desenvolvido por Jonata Pereira</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/jonata-pereira/" target="_blank" rel="external"><img src="imagens/710289_in_linked_social_icon (2).png" alt="Logo Linkedin"></a>
+            <a href="https://www.instagram.com/jonataerick/" target="_blank" rel="external"><img src="imagens/710306_instagram_social_icon.png" alt="Logo Instagram"></a>
+         <a href="https://github.com/jonataerick" target="_blank" rel="external"><img src="imagens/1047632_github_social_icon.png" alt="Logo GitHub"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
